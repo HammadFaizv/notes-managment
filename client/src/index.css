@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; background: #f4f4f5; margin: 0; padding: 20px; }
+.container { max-width: 600px; margin: auto; }
+.note-form { display: flex; flex-direction: column; gap: 10px; margin-bottom: 30px; }
+input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit;}
+button { padding: 10px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;}
+.delete-btn { background: #dc3545; }
+.note-card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 15px; }
+.note-card h3 { margin-top: 0; }
+.note-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 15px; color: #666; }
+.status-msg { text-align: center; color: #666; font-style: italic; }
